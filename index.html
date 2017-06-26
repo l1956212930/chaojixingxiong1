@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <style>
+        body{
+            padding-top: 50px;
+            position: relative;
+        }
+        .banner1{
+            height: 600px;
+            background: url("img/banner.jpg");
+            background-position: center 0;
+        }
+        .banner2{
+            height: 600px;
+            background: url("img/banner2.jpg");
+            background-position: center 0;
+        }
+        .navbar{
+            margin-bottom: 0;
+        }
+        .box{
+            color: white;
+            margin-top: 250px;
+        }
+        .main{
+            padding-top: 10px;
+            margin-top: 10px;
+            background: url("img/banner4.jpg");
+            /*固定背景图片*/
+            background-attachment: fixed;
+        }
+        ul{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+    </style>
+</head>
+<body data-spy="scroll" data-target="#bs-example-navbar-collapse-1">
+<!--导航-->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">超级英雄</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#carousel-example-generic">英雄赏析 <span class="sr-only">(current)</span></a></li>
+                <li><a href="#tupian">英雄介绍</a></li>
+                <li><a href="#dibu">英雄评论</a></li>
+                <li><a href="#">英雄视频</a></li>
+                <li><a href="#">联系我们</a></li>
+            </ul>
+            <form class="navbar-form navbar-right">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="">
+                </div>
+                <button type="submit" class="btn btn-default">搜素</button>
+            </form>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+<!--导航-->
+<!--轮播图-->
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+    </ol>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <div class="banner1 row">
+                <div class="col-md-4 col-md-offset-2 box">
+                    <h3>蜘蛛侠</h3>
+                    <p>蜘蛛侠的本名彼得·本杰明蜘蛛侠的本名彼得·本杰明蜘蛛侠的本名彼得·本杰明蜘蛛侠的本名彼得·本杰明蜘蛛侠的本名彼得·本杰明</p>
+                    <a class="btn btn-primary" href="">了解更多</a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="banner2 row">
+                <div class="col-md-4 col-md-offset-2 box">
+                    <h3>蜘蛛侠</h3>
+                    <p>蜘蛛侠的本名彼得·本杰明蜘蛛侠的本名彼得·本杰明蜘蛛侠的本名彼得·本杰明蜘蛛侠的本名彼得·本杰明蜘蛛侠的本名彼得·本杰明</p>
+                    <a class="btn btn-primary" href="">了解更多</a>
+                </div>
+            </div>
+        </div>
+</div>
+    <!-- Controls -->
+    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+<!--轮播图-->
+<!--图片-->
+<section id="tupian" class="main">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="thumbnail">
+                    <img src="img/thumbnail1.jpg" alt="...">
+                    <div class="caption">
+                        <h3>野兽</h3>
+                        <p>拥有超群的智慧，绝顶聪明</p>
+                        <p><a href="#" class="btn btn-primary" role="button">了解详情</a> <a href="#" class="btn btn-default" role="button">查看更多</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="thumbnail">
+                    <img src="img/thumbnail1.jpg" alt="...">
+                    <div class="caption">
+                        <h3>野兽</h3>
+                        <p>拥有超群的智慧，绝顶聪明</p>
+                        <p><a href="#" class="btn btn-primary" role="button">了解详情</a> <a href="#" class="btn btn-default" role="button">查看更多</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="thumbnail">
+                    <img src="img/thumbnail1.jpg" alt="...">
+                    <div class="caption">
+                        <h3>野兽</h3>
+                        <p>拥有超群的智慧，绝顶聪明</p>
+                        <p><a href="#" class="btn btn-primary" role="button">了解详情</a> <a href="#" class="btn btn-default" role="button">查看更多</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="thumbnail">
+                    <img src="img/thumbnail1.jpg" alt="...">
+                    <div class="caption">
+                        <h3>野兽</h3>
+                        <p>拥有超群的智慧，绝顶聪明</p>
+                        <p><a href="#" class="btn btn-primary" role="button">了解详情</a> <a href="#" class="btn btn-default" role="button">查看更多</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="thumbnail">
+                    <img src="img/thumbnail1.jpg" alt="...">
+                    <div class="caption">
+                        <h3>野兽</h3>
+                        <p>拥有超群的智慧，绝顶聪明</p>
+                        <p><a href="#" class="btn btn-primary" role="button">了解详情</a> <a href="#" class="btn btn-default" role="button">查看更多</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="thumbnail">
+                    <img src="img/thumbnail1.jpg" alt="...">
+                    <div class="caption">
+                        <h3>野兽</h3>
+                        <p>拥有超群的智慧，绝顶聪明</p>
+                        <p><a href="#" class="btn btn-primary" role="button">了解详情</a> <a href="#" class="btn btn-default" role="button">查看更多</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="thumbnail">
+                    <img src="img/thumbnail1.jpg" alt="...">
+                    <div class="caption">
+                        <h3>野兽</h3>
+                        <p>拥有超群的智慧，绝顶聪明</p>
+                        <p><a href="#" class="btn btn-primary" role="button">了解详情</a> <a href="#" class="btn btn-default" role="button">查看更多</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="thumbnail">
+                    <img src="img/thumbnail1.jpg" alt="...">
+                    <div class="caption">
+                        <h3>野兽</h3>
+                        <p>拥有超群的智慧，绝顶聪明</p>
+                        <p><a href="#" class="btn btn-primary" role="button">了解详情</a> <a href="#" class="btn btn-default" role="button">查看更多</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--图片-->
+<!--底部-->
+<footer id="dibu" class="well">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>超级英雄相关电影</h2>
+                <p>超级英雄相关电影超级英雄相关电影超级英雄相关电影超级英雄相关电影</p>
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h6>蝙蝠侠系列</h6>
+                        <ul>
+                            <li><a href="">蝙蝠侠系列</a></li>
+                            <li><a href="">蝙蝠侠系列</a></li>
+                            <li><a href="">蝙蝠侠系列</a></li>
+                            <li><a href="">蝙蝠侠系列</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h6>蝙蝠侠系列</h6>
+                        <ul>
+                            <li><a href="">蝙蝠侠系列</a></li>
+                            <li><a href="">蝙蝠侠系列</a></li>
+                            <li><a href="">蝙蝠侠系列</a></li>
+                            <li><a href="">蝙蝠侠系列</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h6>蝙蝠侠系列</h6>
+                        <ul>
+                            <li><a href="">蝙蝠侠系列</a></li>
+                            <li><a href="">蝙蝠侠系列</a></li>
+                            <li><a href="">蝙蝠侠系列</a></li>
+                            <li><a href="">蝙蝠侠系列</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h6>蝙蝠侠系列</h6>
+                        <ul>
+                            <li><a href="">蝙蝠侠系列</a></li>
+                            <li><a href="">蝙蝠侠系列</a></li>
+                            <li><a href="">蝙蝠侠系列</a></li>
+                            <li><a href="">蝙蝠侠系列</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--底部-->
+</body>
+</html>
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+
+</script>
